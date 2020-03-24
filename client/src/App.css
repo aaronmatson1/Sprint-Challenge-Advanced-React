@@ -31,3 +31,51 @@
     transform: rotate(360deg);
   }
 }
+
+/* Start of APP CSS */
+
+.list{
+/* Tried Centering it.... oh well. my CSS need practice. */
+}
+.players {
+
+  border: 1px darkred solid;
+  margin: 2%;
+  width: 300px;
+  text-align: center;
+}
+
+
+.dark-mode__toggle {
+  background: #3f4399;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #f68819;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
+.navbar {
+  background-color: #70b896;
+  border: none;
+  height: 150px;
+}
