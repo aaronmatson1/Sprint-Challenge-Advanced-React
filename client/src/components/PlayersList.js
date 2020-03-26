@@ -3,16 +3,10 @@ import React from 'react';
 
 
 class PlayersList extends React.Component {
-
         state = {
-
             data: []
         }
-
-
         componentDidMount() {
-
-
           fetch(`http://localhost:5000/api/players`)
           .then(res => res.json())
           .then(items => {
@@ -23,9 +17,7 @@ class PlayersList extends React.Component {
         }
 
         render() {
-
             return(
-
                 <div className='list' >{this.state.data.map(ele => (
                 <div className='players'>
                 <h2 key={ele.id}>{ele.name}</h2>
